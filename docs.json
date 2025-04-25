@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Allister Antosik",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -22,14 +22,14 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "SRE",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "sre/markdown",
+              "sre/code",
+              "sre/images",
+              "sre/settings",
+              "sre/navigation",
+              "sre/reusable-snippets"
             ]
           }
         ]
@@ -80,12 +80,6 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
