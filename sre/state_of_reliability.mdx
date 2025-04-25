@@ -1,0 +1,98 @@
+---
+title: 'State of Reliability Report'
+description: 'Display inline code and code blocks'
+icon: 'code'
+---
+
+An SRE State of Reliability Report is a formal document or dashboard that provides an end-to-end view of a system’s health, reliability posture, and improvement opportunities. It communicates how well services are performing against their reliability goals—typically structured for both engineering leadership and business stakeholders.
+
+Here’s what it should include:
+
+
+## 📊 1. Executive Summary
+
+* Objective of the report (e.g., track SLOs, identify reliability risks)
+* Timeframe covered (e.g., Q1 2025)
+* Key insights (e.g., major outages, improvement from last quarter, high-risk areas)
+
+
+## 🛠️ 2. Service Overview
+
+For each critical service (or grouped by product area):
+
+* Service Name & Owner
+* Tier/Priority (e.g., Tier 1 critical, Tier 3 internal tool)
+* Dependencies (internal and external)
+
+## 📏 3. SLI/SLO Performance
+
+* SLIs: Latency, availability, error rate, saturation
+* SLO Targets vs. Actuals
+* Error Budget Consumption
+* % used
+* Burn rate
+* Trends (graphs of SLO performance over time)
+* Highlight:
+* SLOs consistently met
+* SLOs violated or at risk
+* Causes of burn (e.g., regression, dependency failure)
+
+## 🚨 4. Incident Summary
+
+* Incident Volume (by severity: Sev0–Sev3)
+* MTTR / MTTD / MTTF metrics
+* Top incident causes (root cause categories)
+* High-impact incidents:
+* Date/time
+* Affected services
+* Duration
+* Impact (users, revenue)
+* Lessons learned
+* Postmortem Quality (e.g., % completed, blamelessness score)
+
+## 🧯 5. Operational Load & Toil
+
+* On-call metrics:
+* Pages per person
+* Out-of-hours alerts
+* Manual work frequency:
+* Deployment steps
+* Manual remediation tasks
+* SRE time allocation:
+* % on toil vs. engineering
+
+## 🧪 6. Testing & Deployment Health
+
+* Deployment frequency
+* Rollback rate
+* CI/CD reliability
+* Test coverage & flakiness
+
+## 🔐 7. Risk Register
+
+* Known risks to reliability:
+* Architecture bottlenecks
+* Technical debt
+* Fragile dependencies
+* Mitigation status & owners
+
+## 🚀 8. Reliability Improvement Roadmap
+
+* In-flight initiatives:
+* SLO rollout
+* Chaos engineering
+* Infra scaling
+* Planned improvements & investments
+* Suggested org/process changes (e.g., on-call rotation redesign, observability upgrades)
+
+## 📈 9. Recommendations
+
+* Strategic calls to action for leadership
+* Budget/resource asks
+* Policy updates
+
+## ✅ 10. Appendices
+
+* Full SLO definitions
+* Incident postmortem index
+* Charts and dashboards

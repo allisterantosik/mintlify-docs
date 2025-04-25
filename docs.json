@@ -24,12 +24,7 @@
           {
             "group": "SRE",
             "pages": [
-              "sre/markdown",
-              "sre/code",
-              "sre/images",
-              "sre/settings",
-              "sre/navigation",
-              "sre/reusable-snippets"
+              "sre/state_of_reliability"
             ]
           }
         ]
