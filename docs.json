@@ -24,8 +24,8 @@
           {
             "group": "SRE",
             "pages": [
-              "sre/state_of_reliability",
-              "sre/onboarding"
+              "sre/onboarding",
+              "sre/state_of_reliability"
             ]
           }
         ]
